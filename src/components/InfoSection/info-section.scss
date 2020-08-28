@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+.top-info {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border: 1px solid #c7c7c7;
+
+  .top-info__more {
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    p {
+      font-family: "Open Sans", sans-serif;
+      color: #c7c7c7;
+      font-size: 0.9rem;
+      letter-spacing: 1px;
+      transition: ease-in-out 0.4s;
+      position: relative;
+
+      &:hover {
+        cursor: pointer;
+        color: #184366;
+      }
+
+      &:after {
+        background: none repeat scroll 0 0 transparent;
+        bottom: 0;
+        content: "";
+        display: block;
+        height: 2px;
+        left: 50%;
+        position: absolute;
+        background: #eeb111;
+        transition: width 0.3s ease 0s, left 0.3s ease 0s;
+        width: 0;
+      }
+      &:hover:after {
+        width: 100%;
+        left: 0;
+      }
+    }
+  }
+
+  .top-info__logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+  }
+
+  .top-info__icons {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .searchbar {
+      border: 1px solid #e0e0e0;
+      padding: 0.5rem;
+    }
+
+    .info-icons {
+      color: #e0e0e0;
+      font-size: 1rem;
+      font-weight: bold;
+      transition: ease-in-out 0.4s;
+      &:hover {
+        cursor: pointer;
+        color: #184366;
+      }
+    }
+    .active {
+      color: #184366;
+    }
+  }
+}
