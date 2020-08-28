@@ -4,37 +4,36 @@
 
   .landing-page__img {
     width: 100%;
-    height: 7rem;
+    height: 37rem;
     margin-bottom: -1rem;
-    // background-image: url("https://res.cloudinary.com/duprwuo4j/image/upload/v1598502460/pencil_sl098k.jpg");
-    // background-attachment: fixed;
-    // background-size: cover;
-    background: #184366;
-    // background-repeat: no-repeat;
+    background-image: url("https://res.cloudinary.com/duprwuo4j/image/upload/v1598502460/pencil_sl098k.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
     position: relative;
   }
-  // .landing-page__overlay {
-  //   position: absolute;
-  //   top: 0;
-  //   left: 0;
-  //   right: 0;
-  //   bottom: 0;
-  //   background-color: rgba(0, 0, 0, 0.534);
-  //   background: url(data:;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAABl0RVh0U29mdHdhcmUAUGFpbnQuTkVUIHYzLjUuNUmK/OAAAAATSURBVBhXY2RgYNgHxGAAYuwDAA78AjwwRoQYAAAAAElFTkSuQmCC)
-  //     repeat scroll transparent\9; /* ie fallback png background image */
-  //   z-index: 989;
-  //   color: white;
-  // }
+  .landing-page__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.534);
+    background: url(data:;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAABl0RVh0U29mdHdhcmUAUGFpbnQuTkVUIHYzLjUuNUmK/OAAAAATSURBVBhXY2RgYNgHxGAAYuwDAA78AjwwRoQYAAAAAElFTkSuQmCC)
+      repeat scroll transparent\9; /* ie fallback png background image */
+    z-index: 989;
+    color: white;
+  }
 
   .landing-page__btn {
     position: absolute;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    top: -50%;
-    left: 0%;
+    align-items: center;
+    top: 18%;
+    left: 32%;
     z-index: 999;
-    padding: 5rem;
     border-radius: 0.5rem;
 
     a {
@@ -61,10 +60,10 @@
     }
     p {
       color: #ffffff;
-      font-size: 1.5rem;
+      font-size: 2.2rem;
       letter-spacing: 2px;
       margin-bottom: 3rem;
-      text-align: left;
+      text-align: center;
 
       border: none;
       &:hover {
@@ -72,7 +71,7 @@
         box-shadow: none;
       }
       .mission {
-        font-size: 2.2rem;
+        font-size: 2.7rem;
         text-transform: uppercase;
         font-weight: bolder;
         position: relative;

@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { ReactComponent as SVG } from "../assets/waveTop.svg";
 import "./landing-page.scss";
 
 class LandingPage extends Component {
@@ -16,10 +15,10 @@ class LandingPage extends Component {
               <span className="by-name"> name </span>&{" "}
               <span className="need">need</span>.
             </p>
+            <br />
             <a href="#">More Info</a>
           </div>
         </div>
-        <SVG />
       </div>
     );
   }
