@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 
-import LandingPage from "./components/LandingPage/LandingPage";
+// import LandingPage from "./components/LandingPage/LandingPage";
 import Navigation from "./components/Navigation/Navigation";
+import NavigationTwo from "./components/Navigation_2/NavigationTwo";
 import Cards from "./components/Cards/Cards";
 import { ReactComponent as SVG } from "./components/assets/wave.svg";
 
@@ -59,16 +60,15 @@ class App extends Component {
     return (
       <div className="App">
         <Navigation />
-        <LandingPage />
-        <div className="title">
-          <h1>SPOTLIGHT</h1>
-          <p>2020-2021 SCHOOL YEAR</p>
-        </div>
+        <div class="titleNav">Second Nav</div>
+        <NavigationTwo />
+
         <div className="cards-holder">
           {this.state.cards.map(({ id, ...otherSectionProps }) => (
             <Cards key={id} {...otherSectionProps} />
           ))}
         </div>
+
         <SVG />
       </div>
     );

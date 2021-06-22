@@ -26,8 +26,10 @@ const InfoSection = () => {
         <Logo />
       </div>
       <div className="top-info__icons">
-        <input className="searchbar" type="text" placeholder="Search.." />
-        <FontAwesomeIcon className="info-icons active" icon={faSearch} />
+        <div className="container__searchbar">
+          <input className="searchbar" type="text" placeholder="Search.." />
+          <FontAwesomeIcon className="info-icons search-icon" icon={faSearch} />
+        </div>
         <FontAwesomeIcon className="info-icons social" icon={faTwitter} />
         <FontAwesomeIcon className="info-icons social" icon={faFacebook} />
         <FontAwesomeIcon className="info-icons social" icon={faYoutube} />
